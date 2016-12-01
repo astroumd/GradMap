@@ -1,0 +1,13 @@
+1a) Head over to https://www.continuum.io/downloads and grab the latest
+   appropriate version of anaconda and install this on your computer
+   
+   For version 4.2.0 (dec 2016) the links are:
+
+   https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh
+   https://repo.continuum.io/archive/Anaconda3-4.2.0-MacOSX-x86_64.pkg
+   https://repo.continuum.io/archive/Anaconda3-4.2.0-Windows-x86_64.exe
+
+   For Linux you install this  by running the .sh file through bash,
+   for Mac and Win they are selfguiding graphical installs.
+   
+1b) use miniconda (not recommended)
