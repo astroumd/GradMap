@@ -10,8 +10,20 @@ you issued this command. You can then skip the next section on how
 to install git. If you just want to use the material, you will also
 not need a github account. You can then stop reading here.
 
+A typical terminal session to add/modify code is:
+
+    cd GradMap                 # change directory someWhere
+    git pull                   # update your local repo
+    git add someFile           # tell git there is a new file
+    git commit someFile	       # add it to the local repo
+    git push                   # push it to the remote repo
+
+Special caution for **ipynb** notebooks: make sure you have
+have cleared the cells via **Kernel->Restart & Clear Output**
+before saving them in git.
 
 ## 0. VCS
+
 
 VCS = Version Control System.
 
@@ -109,8 +121,9 @@ when your working directory is somewhere within that repo) by leaving off the '-
 
 
 ## 6. Overview
+![git overview](Git_operations.svg "git operations overview")
 
-![git overview](https://commons.wikimedia.org/wiki/File:Git_operations.svg#/media/File:Git_operations.svg)
+(taken from WikiMedia)
 
 # Old Material
 
