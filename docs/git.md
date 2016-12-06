@@ -38,10 +38,10 @@ the [GitHub Desktop](https://desktop.github.com/) may be the most natural
 choice for a graphical client. It only works on Windows and OSX
 
 
-For linux [gitk] and [gitg] are excellent choices. They are available on most
+For linux **gitk** and **gitg** are excellent choices. They are available on most
 major linux distros.
 
-Here is a more complete listing: https://git-scm.com/downloads/guis
+Here is a more complete listing with some screenshots: https://git-scm.com/downloads/guis
 
 
 ## 2. Using github
@@ -66,11 +66,12 @@ can now continue on the "clone" option, but use your personal repo.
 As was mentioned in the beginning of the document, you make a clone of the
 repo:
 
-	git clone https://github.com/astroumd/GradMap
+     clone https://github.com/astroumd/GradMap
 
 ## 4. Editing
 
-Here is a sample terminal session
+Here is a sample terminal session, editing a file, and returning that changed
+file to the remote repo.
 
      cd GradMap/docs             ### change directory "anywhere" in the repo
      git status                  #   see if there are any loose ends
@@ -79,6 +80,26 @@ Here is a sample terminal session
      git status                  #   check status
      git commit git.md           ### commit to your local repo
      git push                    ### copy all commit's to the remote repo
+
+
+## 5. Configuring git
+
+The command
+
+    git config --list
+
+will list your git settings (on unix, see also the **~/.gitconfig** file, which you
+can also edit directly if you know what you are doing)
+
+    git config --global user.email          "teuben@gmail.com"
+    git config --global user.name           "Peter Teuben"
+    git config --global alias.ci            "commit"
+    git config --global alias.co            "checkout"
+    git config --global alias.st            "status"
+    git config --global credential.helper   "cache --timeout 100000"
+
+Notice git has not only global settings, but can be overridden by setting per repo (as defined
+when your working directory is somewhere within that repo) by leaving off the '--global' option.
 
 
 # Old Material
