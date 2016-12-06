@@ -7,7 +7,8 @@ material can be obtained with the command
 
 this will create a new directory *GradMap/* in the directory where
 you issued this command. You can then skip the next section on how
-to install git.
+to install git. If you just want to use the material, you will also
+not need a github account. You can then stop reading here.
 
 
 ## 1. Installing git
@@ -19,36 +20,73 @@ via google, or ask your best friend, or follow this document.
 
 ### 1.1 Command Line Git
 
-The shell (even on Windows there is one) should have a command "git".
-The mac now comes with this. If you linux distribution does not have
-git, on a Debian based Ubuntu linux this would be
+The terminal/shell (even on Windows there is one) should have a command "git".
+Even OSX now comes with this. If your linux distribution does not have
+git, simply install it. On a Debian based Ubuntu linux this would be
 
      sudo apt-get install git
      
-or on a RedHat based linux you would need
+or on a RedHat based linux you would probably need
 
      sudo yum install git
 
-There are many ways to collaborate using git or in our case github
-(skip to the last one if you don't care about the others)
 
-### 1.2 Graphical Interface Git: windows
-
-
+### 1.2 Graphical Interface Git
 
 Since we are using [GitHub](https://github.com), 
 the [GitHub Desktop](https://desktop.github.com/) may be the most natural
-choice for a graphical client. It only works on Windows
-
-### 1.3 Graphical Interface Git: mac
-
-### 1.4 Graphical Interface Git: linux
+choice for a graphical client. It only works on Windows and OSX
 
 
+For linux [gitk] and [gitg] are excellent choices. They are available on most
+major linux distros.
 
-## 2. Old 2Material
+Here is a more complete listing: https://git-scm.com/downloads/guis
 
-1) directly clone the owner's repo and push back into it.
+
+## 2. Using github
+
+If you want to contribute to the development of **GradMap**, you will need to
+create an account on https://github.com
+
+## 3 clone or fork?
+
+If you want to contribute to GradMap you have two options:
+
+### 3.1 "fork"
+
+For this you need a github account. On https://github.com/astroumd/GradMap
+you would click on the "Fork" button near the top right., and that creates
+a clone of this repo under your personal account. So, lets say for the
+user teuben I then have a fork on https://github.com/teuben/GradMap. You
+can now continue on the "clone" option, but use your personal repo.
+
+### 3.2 "clone"
+
+As was mentioned in the beginning of the document, you make a clone of the
+repo:
+
+	git clone https://github.com/astroumd/GradMap
+
+## 4. Editing
+
+Here is a sample terminal session
+
+     cd GradMap/docs             ### change directory "anywhere" in the repo
+     git status                  #   see if there are any loose ends
+     git pull                    ##  pull in work from others
+     edit git.md                 ### edit some file
+     git status                  #   check status
+     git commit git.md           ### commit to your local repo
+     git push                    ### copy all commit's to the remote repo
+
+
+# Old Material
+
+Shorter essential commands
+
+    
+
    This is dangerous, needs special permission from the owner
    but is a very simple sequency of commands, and not too different
    for those used to CVS and SVN
