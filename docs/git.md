@@ -11,6 +11,12 @@ to install git. If you just want to use the material, you will also
 not need a github account. You can then stop reading here.
 
 
+## 0. VCS
+
+VCS = Version Control System.
+
+Examples are :   RCS, CVS, SVN, Mercurial (gh) and GIT
+
 ## 1. Installing git
 
 In order to access the GradMap material, you will need a git client. There
@@ -101,6 +107,10 @@ can also edit directly if you know what you are doing)
 Notice git has not only global settings, but can be overridden by setting per repo (as defined
 when your working directory is somewhere within that repo) by leaving off the '--global' option.
 
+
+## 6. Overview
+
+![git overview](https://commons.wikimedia.org/wiki/File:Git_operations.svg#/media/File:Git_operations.svg)
 
 # Old Material
 
