@@ -10,20 +10,23 @@ you issued this command. You can then skip the next section on how
 to install git. If you just want to use the material, you will also
 not need a github account. You can then stop reading here.
 
+The url on github is :    https://github.com/astroumd/GradMap
+
 A typical terminal session to add/modify code is:
 
     cd GradMap                 # change directory someWhere
-    git pull                   # update your local repo
-    git add someFile           # tell git there is a new file
-    git commit someFile	       # add it to the local repo
-    git push                   # push it to the remote repo
+    git pull                   # be sure to update your local repo
+    git add some_File          # (if need) tell git there is a new file
+    git commit some_File       # add it to the local repo (+ log entry!!)
+    git push                   # push everything to the remote repo
 
 Special caution for **ipynb** notebooks: make sure you have
 have cleared the cells via **Kernel->Restart & Clear Output**
 before saving them in git.
 
-Also note we are using python3, if you open the notebooks/example-python3.ipynb
-you should not get any warnings about missing python kernels.
+Also note we are using python3, if you open the **notebooks/example-python3.ipynb**
+you should not get any warnings about missing python kernels, or more than likely
+you happen to use python2.
 
 ## 0. VCS
 
