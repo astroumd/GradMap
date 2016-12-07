@@ -130,8 +130,22 @@ can also edit directly if you know what you are doing)
 Notice git has not only global settings, but can be overridden by setting per repo (as defined
 when your working directory is somewhere within that repo) by leaving off the '--global' option.
 
+## 6. Other git trivia
 
-## 6. Overview
+* Inline help:
+  * git
+  * git help CMD
+  * git CMD --help
+* never touch the .git directory at the top of a repository (this is your local repo history)
+* git commands you should know for GradMap
+  * **git clone**    (first time only)
+  * **git pull**     (update from remote)
+  * **git push**     (update to remote)
+  * **git status**   (what's new)
+  * **git add**      (new files)
+  * **git commit**   (local write)
+
+## 7. Overview
 ![git overview](Git_operations.svg "git operations overview")
 
 (taken from WikiMedia)
