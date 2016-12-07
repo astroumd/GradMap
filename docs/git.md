@@ -38,9 +38,9 @@ via google, or ask your best friend, or follow this document.
 
 ### 1.1 Command Line Git
 
-The terminal/shell (even on Windows there is one) should have a command "git".
-Even OSX now comes with this. If your linux distribution does not have
-git, simply install it. On a Debian based Ubuntu linux this would be
+The terminal/shell should have a command "git".  OSX now comes
+preinstalled with this. If your linux distribution does not have git
+by default, simply install it. On a Debian based Ubuntu linux this would be
 
      sudo apt-get install git
      
@@ -62,7 +62,7 @@ major linux distros.
 Here is a more complete listing with some screenshots: https://git-scm.com/downloads/guis
 
 
-## 2. Using github
+## 2. Get a github.com account
 
 If you want to contribute to the development of **GradMap**, you will need to
 create an account on https://github.com
@@ -71,20 +71,31 @@ create an account on https://github.com
 
 If you want to contribute to GradMap you have two options:
 
-### 3.1 "fork"
+### 3.1 "clone"
+
+This is the most simple (but also a bit dangerous) method.
+As was mentioned in the beginning of the document, you make a clone of the
+repo:
+
+     git clone https://github.com/astroumd/GradMap
+
+
+### 3.2 "fork"
+
+We will probably not be using this method, and allow direct push into the repo.
 
 For this you need a github account. On https://github.com/astroumd/GradMap
 you would click on the "Fork" button near the top right., and that creates
 a clone of this repo under your personal account. So, lets say for the
 user teuben I then have a fork on https://github.com/teuben/GradMap. You
-can now continue on the "clone" option, but use your personal repo.
+can now continue on the "clone" option, but use your personal repo:
 
-### 3.2 "clone"
+     git clone https://github.com/teuben/GradMap
 
-As was mentioned in the beginning of the document, you make a clone of the
-repo:
+after this you would need to create a branch, work on the branch, push this
+to your github account, and submit a pull request from that branch. Sounds
+complicated? yes!  But this is how it's done in most open source projects.
 
-     clone https://github.com/astroumd/GradMap
 
 ## 4. Editing
 
@@ -102,7 +113,7 @@ file to the remote repo.
 
 ## 5. Configuring git
 
-The command
+I find some of the default settings in git a bit annoying. The command
 
     git config --list
 
@@ -125,19 +136,18 @@ when your working directory is somewhere within that repo) by leaving off the '-
 
 (taken from WikiMedia)
 
-# Old Material
+# Old Material That Will Be Removed 
 
-Shorter essential commands
-
+1) Direct push/pull
     
 
-   This is dangerous, needs special permission from the owner
-   but is a very simple sequency of commands, and not too different
-   for those used to CVS and SVN
+This is dangerous, needs special permission from the owner
+but is a very simple sequency of commands, and not too different
+for those used to CVS and SVN
 
-	git clone https://github.com/astroumd/demo  demo_astroumd
-	cd demo_astroumd
-	$EDITOR f1
+    	git clone https://github.com/astroumd/demo  demo_astroumd
+        cd demo_astroumd
+        $EDITOR f1
         git commit f1
         git push
 
