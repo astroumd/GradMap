@@ -22,6 +22,9 @@ Special caution for **ipynb** notebooks: make sure you have
 have cleared the cells via **Kernel->Restart & Clear Output**
 before saving them in git.
 
+Also note we are using python3, if you open the notebooks/example-python3.ipynb
+you should not get any warnings about missing python kernels.
+
 ## 0. VCS
 
 
@@ -118,7 +121,8 @@ I find some of the default settings in git a bit annoying. The command
     git config --list
 
 will list your git settings (on unix, see also the **~/.gitconfig** file, which you
-can also edit directly if you know what you are doing)
+can also edit directly if you know what you are doing). Here are some of my favorite
+settings and aliases:
 
     git config --global user.email          "teuben@gmail.com"
     git config --global user.name           "Peter Teuben"
@@ -144,6 +148,7 @@ when your working directory is somewhere within that repo) by leaving off the '-
   * **git status**   (what's new)
   * **git add**      (new files)
   * **git commit**   (local write)
+  * **git log**      (logs of who did what)
 
 ## 7. Overview
 ![git overview](Git_operations.svg "git operations overview")
