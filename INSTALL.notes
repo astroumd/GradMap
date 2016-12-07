@@ -20,3 +20,5 @@
    bash Miniconda3-latest-Linux-x86_64.sh
    export PATH="$HOME/miniconda3/bin:$PATH"
    conda install ipython numpy scipy matplotlib notebook jupyter
+
+2) no more info here.
