@@ -1,10 +1,9 @@
 
-This document should be available online as:
+This document should also be available online as:
 
    https://github.com/astroumd/GradMap/blob/master/INSTALL.notes
 
-1)  Install python, either via 1a), 1b) or 1c).
-
+1)  Install Python3, either via 1a), 1b) or 1c).
    
 
 1a) Find your friendly USB or DVD keeper and download the appropriate
@@ -12,9 +11,9 @@ This document should be available online as:
     We prefer anaconda (see also 1b for online instructions) but you
     can also opt to use miniconda (see 1c) or try your native python
     (not recommended at all, but not impossible if you have something
-    working).
+    working already). Make sure you have python version 3, not version 2!
 
-    Files are also maintained online here at:
+    Files (and Lectures and Data) are also maintained online here at:
     
 	    http://chara.astro.umd.edu/~teuben/gradmap/
 
@@ -50,8 +49,16 @@ This document should be available online as:
     admin privilages on your machine. There is also the risk of having a
     slightly different version from
 
+2) Download lectures from the LectureX.zip files in
 
-2) ds9 and xpa:
+	    http://chara.astro.umd.edu/~teuben/gradmap/
+
+   You can unzip these files "anywhere", e.g. in Downloads. Start "jupyter" with
+   the command
+	   jupyter notebook
+   and now navigate to the Lecture1 folder in your browser that was opened for you.
+
+3) ds9 and xpa:
    http://ds9.si.edu/site/Download.html
    http://ds9.si.edu/site/XPA.html
 
