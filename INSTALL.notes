@@ -1,4 +1,25 @@
-1a) Head over to https://www.continuum.io/downloads and grab the latest
+
+This document should be available online as:
+
+   https://github.com/astroumd/GradMap/blob/master/INSTALL.notes
+
+1)  Install python, either via 1a), 1b) or 1c).
+
+   
+
+1a) Find your friendly USB or DVD keeper and download the appropriate
+    files for your Linux/Mac/Windows machine.
+    We prefer anaconda (see also 1b for online instructions) but you
+    can also opt to use miniconda (see 1c) or try your native python
+    (not recommended at all, but not impossible if you have something
+    working).
+
+    Files are also maintained online here at:
+    
+	    http://chara.astro.umd.edu/~teuben/gradmap/
+
+
+1b) Head over to https://www.continuum.io/downloads and grab the latest
    appropriate version of anaconda and install this on your computer
    
    For version 4.2.0 (Oct-2016) the 64 bit links for Python3 are:
@@ -11,7 +32,7 @@
        	     bash Anaconda3-4.2.0-Linux-x86_64.sh
    for Mac and Win they are selfguiding graphical installs.
 
-1b) use miniconda (not recommended)
+1c) use miniconda (not recommended)
 
    https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
    https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
@@ -25,13 +46,13 @@
    export PATH="$HOME/miniconda3/bin:$PATH"
    conda install ipython numpy scipy matplotlib notebook jupyter
 
-1c) If your internet connection is not super fast, somebody in your group,
-   or one of the instructors, should have these files on a USB stick or
-   data DVD.
+1d) Your native python might also work, but more than likely you will need
+    admin privilages on your machine. There is also the risk of having a
+    slightly different version from
 
 
-2) no more info here.
-
-3) ds9 and xpa:
+2) ds9 and xpa:
    http://ds9.si.edu/site/Download.html
    http://ds9.si.edu/site/XPA.html
+
+   You will not need ds9 until later this week.
