@@ -1,0 +1,16 @@
+#This drop tower is equipped with velocity sensors that have gathered data over a
+#10 second test run interval.  The time stamp (seconds) is the first column and
+#the velocity(m/s) is the second column. Note that this ride starts at an
+#initial height of 30 meters.
+#T  V
+0   15.0
+1   17.6
+2   7.8
+3   -2.0
+4   -11.8
+5   -21.6
+6   -19.0
+7   -4.0
+8   11.0
+9   13.6
+10   3.8
