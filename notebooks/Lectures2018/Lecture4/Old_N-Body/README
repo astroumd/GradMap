@@ -1,0 +1,57 @@
+ASTR 615: Computational Astrophysics
+
+Sergio Mundo, Laura Lenkic
+
+Homework 4 README
+
+=================================================================================================
+Question 1 
+=================================================================================================
+To run:
+	$python prob1.py
+	
+Requirements:
+	- program imports integrators from integrators.py, needs to be in working directory
+	
+Output:
+	- twelve figures corresponding to the orbits of the two particles, the phase diagrams,
+	  and the fractional energy changes for eccentricities of e = 0.5 and e = 0.9
+	
+=================================================================================================
+Question 2
+=================================================================================================
+To run:
+	mkdir animation
+	python
+	>>> import prob2 as p2
+	>>> p2.nbody('LF2', 0.05, 0.05, 1000, 2, 'Initial_Conditions.txt')
+
+Note: parameters in call to p2.nbody are (in order)
+	1. integrator - RK4 of LF2
+	2. softening parameter
+	3. size of time step (~dynamical timescale/30)
+	4. number of steps to take in integration (many times the dynamical timescale)
+	5. output frequency
+	6. initial conditions file
+
+The above is an example run, the user can experiment with these parameters.
+
+Requirements:
+	- program imports integrators from integrators.py, needs to be in working directory
+	- program imports initial conditions from Initial_Conditions.txt, must also be in 
+	  working directory
+	- program saves frames for animation to folder "animation", must also be in working
+	  directory
+
+Output:
+	- Energy plot saved as either Energy_LF2.png or Energy_RK4.png, depending on which
+	  integrator is chosen
+	- Frames corresponding to positions of particles in xy-plane, frequency output 
+	  depends on parameter provided by user when calling the program
+
+For initial conditions:
+	$python ics.py
+
+Note: ics.py is set to generate initial conditions such that all particles lie in the xy-plane 
+(z = 0) and with no motion in the z direction. This can be changed in lines 39, 41, 52, 
+and 53.
