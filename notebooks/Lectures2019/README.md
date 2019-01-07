@@ -1,8 +1,8 @@
 # Getting started with Jupyter notebook
 To open the Jupyter notebook on your own computer using a Python distribution (e.g. Anaconda), follow the below steps. 
 
-1. Download the Jupyter notebook from the repository.
-2. Unzip the package and move the Jupyter notebook into your Downloads folder
+1. Download the GradMap repository at https://github.com/astroumd/GradMap.
+2. Unzip the package and make sure the folder is in your Downloads folder.
 
 Mac users: 
 1. Open up the Terminal application navigate to the folder using `cd Downloads/GradMap-master`
