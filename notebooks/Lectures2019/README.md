@@ -7,12 +7,12 @@ To open the Jupyter notebook on your own computer using a Python distribution (e
 Mac users: 
 1. Open up the Terminal application navigate to the folder using `cd Downloads/GradMap-master`
 1. Type the command `jupyter notebook`. Your default web browser should open a list of files in your Downloads folder.
-2. Navigate to the Lectures 2018 folder. Click on any lecture and it will open up the Jupyter notebook.
+2. Navigate to the Lectures 2019 folder. Click on any lecture and it will open up the Jupyter notebook.
 
 PC users:
 1. Open up the command prompt (follow instructions here: https://www.lifewire.com/how-to-open-command-prompt-2618089)
 2. Navigate to the folder using `cd Downloads/GradMap-master`.
 1. Type the command `jupyter notebook`. Your default web browser should open a list of files in your Downloads folder.
-2. Navigate to the Lectures 2018 folder. Click on any lecture and it will open up the Jupyter notebook.
+2. Navigate to the Lectures 2019 folder. Click on any lecture and it will open up the Jupyter notebook.
 
 
