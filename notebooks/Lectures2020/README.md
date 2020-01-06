@@ -17,7 +17,7 @@ PC users:
 
 Anaconda Navigator (both Mac and PC):
 1. Search for the program `Anaconda Navigator` on your computer and start the program
-2. Find the `Jupyter-notebooks` widget and click install
+2. Find the `Jupyter-notebook` widget and click install
 3. Once it finishes installing, launch the notebook and navigate to your working directory
 
 
