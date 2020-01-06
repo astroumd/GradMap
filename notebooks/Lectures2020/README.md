@@ -15,4 +15,9 @@ PC users:
 1. Type the command `jupyter notebook`. Your default web browser should open a list of files in your Downloads folder.
 2. Navigate to the Lectures 2020 folder. Click on any lecture and it will open up the Jupyter notebook.
 
+Anaconda Navigator (both Mac and PC):
+1. Search for the program `Anaconda Navigator` on your computer and start the program
+2. Find the `Jupyter-notebooks` widget and click install
+3. Once it finishes installing, launch the notebook and navigate to your working directory
+
 
