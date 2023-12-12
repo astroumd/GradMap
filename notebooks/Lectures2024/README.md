@@ -1,4 +1,5 @@
-#Google Collab
+# Google Collab
+
 Collab integration seems to be as straightforward as uploading a given ipython notebook to google drive an clicking on it. It might be as simple as
 creating a folder in drive with all of the student versions and sharing it with them ahead of time. We could later share solutions the same way. 
 If we'd like to go this route, the main difficulty will be handling things like loading in external files, but that can be solved without too much effort. 
