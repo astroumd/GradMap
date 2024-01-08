@@ -1,10 +1,6 @@
-# Google Collab
-
-Collab integration seems to be as straightforward as uploading a given ipython notebook to google drive an clicking on it. It might be as simple as
-creating a folder in drive with all of the student versions and sharing it with them ahead of time. We could later share solutions the same way. 
-If we'd like to go this route, the main difficulty will be handling things like loading in external files, but that can be solved without too much effort. 
-Syncing things between google drive and github could also be challenging (one solution could be to only change one version, and copy it into the other).
-For now, the notebooks can be found on collab [here](https://drive.google.com/drive/folders/1oyVnQJp5cFPADaYfl_tSWwdebJWZUgOy) (if we go this route, it would probably be good to host in a GRADMAP drive rather than mine) - Alex
+# Google Colab
+We decided to try conducting the 2024 Winter Workshop using Google Colab. This runs the python notebooks on some server, which avoids python installation troubles. 
+The notebooks can be found on colab [here](https://drive.google.com/drive/folders/19qywXGcx63YOHvuWFGUaCLQgppPSs7m_)
 
 <!---
 The previous readme:
